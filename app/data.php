@@ -1,6 +1,57 @@
 <?php
 
 
+$topbar = [
+        "title" => 'EDG PLANTATION',
+        "txt-color" => 'green',
+        "topmenu" => [
+                        //menu list "HOME"
+                        [
+                                "name" => 'HOME',
+                                "txt-color" => 'green',
+                                "txt_weight" => 'bold',
+                                "link" => '#',
+                        ],
+
+                         //menu list "ABOUT"
+                         [
+                                "name" => 'ABOUT',
+                                "txt-color" => 'green',
+                                "txt_weight" => 'bold',
+                                "link" => '#',
+                        ],
+
+                         //menu list "SALE"
+                         [
+                                "name" => 'SALE',
+                                "txt-color" => 'green',
+                                "txt_weight" => 'bold',
+                                "link" => '#',
+                        ],
+
+                        //menu list "BLOG"
+                        [
+                                "name" => 'BLOG',
+                                "txt-color" => 'green',
+                                "txt_weight" => 'bold',
+                                "link" => '#',
+                        ],
+
+                        //menu list "CONTACT US"
+                        [
+                                "name" => 'CONTACT US',
+                                "txt_weight" => 'bold',
+                                "txt-color" => 'green',
+                                "link" => '#',
+                        ],
+
+
+
+
+                ]
+];
+
+
 $about = [
 
 
@@ -193,7 +244,7 @@ $blogs = [
 
         "title"         => 'BLOGS...',
         "txt_color"     => 'white',
-        "bg_color"      => 'green',     
+        "bg_color"      => 'green',
 
       "blogList" => [
                 [
@@ -246,7 +297,7 @@ $testimonial = [
 
                                         "bg-color"      => '	#FFEFD5',
                                         "name"          => 'Audrey Hepburn',
-                                        "desc"          => 'To plant a garden is to believe in tomorrow.',  
+                                        "desc"          => 'To plant a garden is to believe in tomorrow.',
                                         "icon"          => 'fa fa-quote-left',
                                         "photo"         => 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/767_v9_ba.jpg',
                                 ],
@@ -255,7 +306,7 @@ $testimonial = [
 
                                         "bg-color"      => '	#FFEFD5',
                                         "name"          => 'Audrey Hepburn',
-                                        "desc"          => 'To plant a garden is to believe in tomorrow.',  
+                                        "desc"          => 'To plant a garden is to believe in tomorrow.',
                                         "icon"          => 'fa fa-quote-left',
                                         "photo"         => 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/767_v9_ba.jpg',
                                 ],
@@ -264,7 +315,7 @@ $testimonial = [
 
                                         "bg-color"      => '	#FFEFD5',
                                         "name"          => 'Audrey Hepburn',
-                                        "desc"          => 'To plant a garden is to believe in tomorrow.',  
+                                        "desc"          => 'To plant a garden is to believe in tomorrow.',
                                         "icon"          => 'fa fa-quote-left',
                                         "photo"         => 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/767_v9_ba.jpg',
                                 ],
