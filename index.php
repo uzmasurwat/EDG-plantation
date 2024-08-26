@@ -22,7 +22,7 @@ if(file_exists(__DIR__ .'/autoload.php')) {
 	<meta name="description" content="" />
 	<meta name="author" content="" />
 
-	<title>Edg</title>
+	<title>EDG PLANTATION</title>
 
 
 	<!-- bootstrap core css -->

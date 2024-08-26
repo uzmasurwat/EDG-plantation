@@ -2,53 +2,63 @@
 
 
 $topbar = [
-        "title" => 'EDG PLANTATION',
-        "txt-color" => 'green',
-        "topmenu" => [
+        "title"         => 'EDG PLANTATION',
+        "txt-color"     => 'green',
+        //top-menu
+        "topmenu"       => [
                         //menu list "HOME"
                         [
                                 "name" => 'HOME',
                                 "txt-color" => 'green',
                                 "txt_weight" => 'bold',
-                                "link" => '#',
-                        ],
+                                "link" => 'index.php',
+                                ],
 
                          //menu list "ABOUT"
                          [
                                 "name" => 'ABOUT',
                                 "txt-color" => 'green',
                                 "txt_weight" => 'bold',
-                                "link" => '#',
-                        ],
+                                "link" => './about_section layout_padding long_section.php',
+                                ],
 
                          //menu list "SALE"
                          [
                                 "name" => 'SALE',
                                 "txt-color" => 'green',
                                 "txt_weight" => 'bold',
-                                "link" => '#',
-                        ],
+                                "link" => './furniture_section layout_padding.php',
+                                ],
 
                         //menu list "BLOG"
                         [
                                 "name" => 'BLOG',
                                 "txt-color" => 'green',
                                 "txt_weight" => 'bold',
-                                "link" => '#',
-                        ],
+                                "link" => './fblog_section layout_padding.php',
+                                ],
 
                         //menu list "CONTACT US"
                         [
                                 "name" => 'CONTACT US',
                                 "txt_weight" => 'bold',
                                 "txt-color" => 'green',
-                                "link" => '#',
-                        ],
+                                "link" => './contact_section  long_section.php',
+                                ]
+                           ],
+        //login sec
+        "login"         => [
 
+                                "name"          => 'login',
+                                "icon"          => 'fa fa-user',
+                                "link"          => '#',
+        ],
+        // searchbar
+        "seachbar"      => [
+                                "icon"          => 'fa fa-search',
+                                "link"          => 'https://www.google.com/search?q=google+url&sca_esv=81215ad4e9e1b019&sca_upv=1&rlz=1C1VDKB_enBD1084BD1084&sxsrf=ADLYWILLmYLYvC2ukQKiLZGec3vvjPSDJg%3A1724682641429&ei=kZHMZojYGeu5vr0Pj_OPwQQ&oq=google+search+link&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmdvb2dsZSBzZWFyY2ggbGluayoCCAIyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyExAuGIAEGLADGNEDGEMYxwEYigUyDRAAGIAEGLADGEMYigVI7UBQAFgAcAF4AZABAJgBAKABAKoBALgBAcgBAJgCAaACCpgDAIgGAZAGCpIHATGgBwA&sclient=gws-wiz-serp',
+        ]
 
-
-
-                ]
 ];
 
 
